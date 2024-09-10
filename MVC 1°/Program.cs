@@ -41,6 +41,6 @@ app.UseSession();// Habilita la session
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=SingUp}/{id?}");
+    pattern: "{controller=Home}/{action=SignUp}/{id?}");
 
 app.Run();

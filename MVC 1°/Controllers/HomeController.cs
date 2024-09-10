@@ -75,7 +75,7 @@ namespace MVC_1_.Controllers
                 HttpContext.Session.SetString("email", usuario.Email.ToString());
                 HttpContext.Session.SetString("clave", usuario.Clave.ToString());
                 return RedirectToAction("Index", "Home");
-            }
+            } 
             else
             {
                 ViewBag.Notification = "Email o Clave incorrecta";
